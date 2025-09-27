@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="קערת רחצת פנים בקרח - פתרון מהפכני לעור בריא וצעיר! מקרר, מרגיע ומטפל בדלקות. רק ₪120 במקום ₪180 - מבצע מוגבל!">
+    <meta name="keywords" content="קערת רחצת פנים בקרח, טיפוח פנים, עור בריא, דלקות עור, אנטי אייג'ינג, מוצר טיפוח">
+    <meta name="author" content="Ice Beauty Israel">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="קערת רחצת פנים בקרח - מהפכה בטיפוח הפנים">
+    <meta property="og:description" content="פתרון מהפכני לעור בריא וצעיר! מבצע ענק - רק ₪120 במקום ₪180">
+    <meta property="og:type" content="product">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    
+    <title>קערת רחצת פנים בקרח - מהפכה בטיפוח הפנים | מבצע ענק 33% הנחה!</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        * {
+            font-family: 'Heebo', sans-serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .ice-gradient {
+            background: linear-gradient(135deg, #a8e6cf 0%, #88d8c0 50%, #78c2ad 100%);
+        }
+        
+        .price-gradient {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            box-shadow: 0 4px 15px rgba(238, 90, 36, 0.4);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(238, 90, 36, 0.6);
+        }
+        
+        .feature-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .countdown-timer {
+            background: linear-gradient(45deg, #ff4757, #ff3838);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .floating-whatsapp {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: #25d366;
+            color: white;
+            padding: 15px;
+            border-radius: 50px;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        
+        .testimonial {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        
+        .faq-item {
+            transition: all 0.3s ease;
+        }
+        
+        .faq-active {
+            background-color: #f8f9fa;
+        }
+        
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-text {
+                font-size: 2.5rem;
+            }
+            .price-text {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body class="smooth-scroll bg-white text-gray-800">
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/972501234567?text=שלום, אני מעוניין/ת בקערת רחצת הפנים בקרח" 
+       class="floating-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="hero-gradient text-white py-6 sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold">
+                    <i class="fas fa-snowflake ml-2"></i>
+                    Ice Beauty
+                </div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#benefits" class="hover:text-blue-200">יתרונות</a>
+                    <a href="#reviews" class="hover:text-blue-200">ביקורות</a>
+                    <a href="#faq" class="hover:text-blue-200">שאלות</a>
+                    <a href="#order" class="hover:text-blue-200">הזמנה</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Header Section -->
+    <section class="hero-gradient text-white text-center py-16">
+        <div class="container mx-auto px-4">
+            <h1 class="hero-text text-5xl font-bold mb-6 leading-tight">
+                תפסיקי לסבול מדלקות עור ואדמומיות!
+            </h1>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                קערת רחצת הפנים בקרח - הפתרון המהפכני שיהפוך את העור שלך לרך, חלק ובריא תוך דקות!
+            </p>
+            <button onclick="scrollToOrder()" class="btn-primary text-white font-bold py-4 px-8 rounded-full text-lg">
+                <i class="fas fa-fire ml-2"></i>
+                קני עכשיו במבצע ענק!
+            </button>
+        </div>
+    </section>
+
+    <!-- Hero Product Section -->
+    <section class="py-16 bg-gradient-to-br from-blue-50 to-cyan-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center justify-center gap-12">
+                <!-- Product Image -->
+                <div class="lg:w-1/2 text-center">
+                    <div class="relative inline-block">
+                        <img src="https://via.placeholder.com/500x400/a8e6cf/ffffff?text=קערת+רחצת+פנים+בקרח" 
+                             alt="קערת רחצת פנים בקרח" 
+                             class="rounded-lg shadow-2xl w-full max-w-md mx-auto">
+                        <!-- הערה: החלף בתמונה אמיתית של המוצר -->
+                        <div class="absolute -top-4 -right-4 bg-red-500 text-white px-4 py-2 rounded-full font-bold text-lg">
+                            חם! 🔥
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Info -->
+                <div class="lg:w-1/2 text-center lg:text-right">
+                    <h2 class="text-4xl font-bold mb-6 text-gray-800">
+                        קערת רחצת פנים בקרח
+                        <span class="block text-2xl text-blue-600 mt-2">הפתרון המהפכני לעור מושלם!</span>
+                    </h2>
+                    
+                    <!-- Prices -->
+                    <div class="mb-8">
+                        <div class="text-3xl text-gray-400 line-through mb-2">₪180</div>
+                        <div class="price-gradient text-white text-5xl font-bold py-3 px-6 rounded-lg inline-block mb-4">
+                            רק ₪120!
+                        </div>
+                        <div class="text-green-600 text-xl font-semibold">
+                            <i class="fas fa-percentage ml-1"></i>
+                            חסכת 33% - ₪60 הנחה!
+                        </div>
+                    </div>
+                    
+                    <!-- Countdown Timer -->
+                    <div class="countdown-timer text-white p-6 rounded-lg mb-8 inline-block">
+                        <div class="text-lg font-semibold mb-2">מבצע מוגבל זמן!</div>
+                        <div class="flex justify-center gap-4 text-2xl font-bold">
+                            <div class="text-center">
+                                <div id="hours">47</div>
+                                <div class="text-sm">שעות</div>
+                            </div>
+                            <div>:</div>
+                            <div class="text-center">
+                                <div id="minutes">23</div>
+                                <div class="text-sm">דקות</div>
+                            </div>
+                            <div>:</div>
+                            <div class="text-center">
+                                <div id="seconds">45</div>
+                                <div class="text-sm">שניות</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <button onclick="scrollToOrder()" class="btn-primary text-white font-bold py-4 px-8 rounded-full text-xl w-full">
+                            <i class="fas fa-shopping-cart ml-2"></i>
+                            הזמיני עכשיו - משלוח חינם!
+                        </button>
+                        <div class="text-sm text-gray-600">
+                            <i class="fas fa-shield-alt ml-1 text-green-500"></i>
+                            אחריות מלאה 30 יום | החזר כספי מלא
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem + Solution Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-red-600 mb-6">
+                    האם את מכירה את הבעיות הללו?
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                    <div class="bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                        <i class="fas fa-exclamation-triangle text-3xl text-red-500 mb-4"></i>
+                        <h3 class="font-bold text-lg mb-2">דלקות ואדמומיות</h3>
+                        <p class="text-sm text-gray-600">העור שלך אדום ומודלק כל הזמן?</p>
+                    </div>
+                    <div class="bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                        <i class="fas fa-search text-3xl text-red-500 mb-4"></i>
+                        <h3 class="font-bold text-lg mb-2">נקבוביות גדולות</h3>
+                        <p class="text-sm text-gray-600">נקבוביות פתוחות שמקלקלות את המראה?</p>
+                    </div>
+                    <div class="bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                        <i class="fas fa-tired text-3xl text-red-500 mb-4"></i>
+                        <h3 class="font-bold text-lg mb-2">עור עייף ואפור</h3>
+                        <p class="text-sm text-gray-600">העור נראה עייף וחסר חיות?</p>
+                    </div>
+                    <div class="bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                        <i class="fas fa-clock text-3xl text-red-500 mb-4"></i>
+                        <h3 class="font-bold text-lg mb-2">הזדקנות מוקדמת</h3>
+                        <p class="text-sm text-gray-600">קמטים וקווי הבעה מתחילים להופיע?</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <h2 class="text-4xl font-bold text-green-600 mb-8">
+                    <i class="fas fa-check-circle ml-2"></i>
+                    עכשיו יש פתרון מושלם!
+                </h2>
+                <div class="ice-gradient p-8 rounded-2xl max-w-4xl mx-auto">
+                    <img src="https://via.placeholder.com/600x300/88d8c0/ffffff?text=קערת+רחצת+פנים+בקרח+בפעולה" 
+                         alt="קערת רחצת פנים בקרח בשימוש" 
+                         class="rounded-lg shadow-lg w-full mb-6">
+                    <!-- הערה: החלף בתמונה של המוצר בשימוש -->
+                    <h3 class="text-3xl font-bold text-white mb-4">
+                        קערת רחצת הפנים בקרח - הפתרון הטבעי והמהיר ביותר!
+                    </h3>
+                    <p class="text-xl text-white">
+                        טיפול קרח מקצועי בבית - מקרר, מרגיע ומחדש את העור תוך דקות בלבד!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-16 bg-gradient-to-br from-cyan-50 to-blue-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-6 text-gray-800">
+                    למה קערת רחצת הפנים בקרח היא המוצר שכל אישה חייבת להכיר?
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    8 יתרונות מדהימים שיהפכו את שגרת הטיפוח שלך ויעניקו לך עור בריא וזוהר כמו של דוגמנית!
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="feature-card bg-white p-6 rounded-xl shadow-lg text-center">
+                    <div class="ice-gradient w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-snowflake text-2xl text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">מקרר ומרגיע מיידי</h3>
+                    <p class="text-gray-600 text-sm">מקרר את העור ומרגיע דלקות תוך שניות. מושלם אחרי יום חם או אימון.</p>
+                </div>
+                
+                <div class="feature-card bg-white p-6 rounded-xl shadow-lg text-center">
+                    <div class="bg-gradient-to-r from-pink-500 to-rose-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-compress-alt text-2xl text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">מכווץ נקבוביות</h3>
+                    <p class="text-gray-600 text-sm">הקור מכווץ את הנקבוביות ומעניק למראה חלק ואחיד יותר.</p>
+                </div>
+                
+                <div class="feature-card bg-white p-6 rounded-xl shadow-lg text-center">
+                    <div class="bg-gradient-to-r from-green-500 to-emerald-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-heartbeat text-2xl text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">משפר זרימת דם</h3>
+                    <p class="text-gray-600 text-sm">מגביר את זרימת הדם ומעניק לעור זוהר טבעי ובריא.</p>
+                </div>
+                
+                <div class="feature-card bg-white p-6 rounded-xl shadow-lg text-center">
+                    <div class="bg-gradient-to-r from-purple-500 to-indigo-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-magic text-2xl text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">אנטי אייג'ינג טבעי</h3>
+                    <p class="text-gray-600 text-sm">מעכב הזדקנות, מפחית קמטים ומעניק למראה צעיר יותר.</p>
+                </div>
+                
+                <div class="feature-card bg-white p-6 rounded-xl shadow-lg text-center">
+                    <div class="bg-gradient-to-r from-orange-500 to-red-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-spa text-2xl text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">מפחית נפיחות</h3>
+                    <p class="text-gray-600 text-sm">מפחית נפיחות מתחת לעיניים ומעניק מראה רענן ער.</p>
+                </div>
+                
+                <div class="feature-card bg-white p-6 rounded-xl shadow-lg text-center">
+                    <div class="bg-gradient-to-r from-teal-500 to-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-2xl text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">טבעי ובטוח לחלוטין</h3>
+                    <p class="text-gray-600 text-sm">ללא כימיקלים, תופעות לוואי או נזק לעור. טבעי 100%.</p>
+                </div>
+                
+                <div class="feature-card bg-white p-6 rounded-xl shadow-lg text-center">
+                    <div class="bg-gradient-to-r from-yellow-500 to-orange-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-clock text-2xl text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">תוצאות מיידיות</h3>
+                    <p class="text-gray-600 text-sm">תרגישי את ההבדל כבר בשימוש הראשון - תוצאות מיידיות!</p>
+                </div>
+                
+                <div class="feature-card bg-white p-6 rounded-xl shadow-lg text-center">
+                    <div class="bg-gradient-to-r from-indigo-500 to-purple-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-home text-2xl text-white"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">נוח לשימוש בבית</h3>
+                    <p class="text-gray-600 text-sm">קל לניקוי, קומפקטי לאחסון. טיפול ספא מקצועי בבית!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-6 text-gray-800">
+                    מה הלקוחות שלנו אומרות?
+                </h2>
+                <p class="text-xl text-gray-600">אלפי נשים כבר התאהבו בקערת רחצת הפנים בקרח שלנו!</p>
+                <div class="flex justify-center items-center mt-4">
+                    <div class="flex text-yellow-400 text-2xl">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="mr-2 text-xl font-bold">4.9/5</span>
+                    <span class="mr-2 text-gray-600">(2,847 ביקורות)</span>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="testimonial p-6 rounded-xl border">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/60x60/ff69b4/ffffff?text=ר" 
+                             alt="רונית כהן" 
+                             class="w-12 h-12 rounded-full ml-4">
+                        <div>
+                            <div class="font-bold">רונית כהן</div>
+                            <div class="text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "לא האמנתי שמשהו כל כך פשוט יעשה הבדל כזה! העור שלי נראה צעיר יותר ב-10 שנים. הנקבוביות התכווצו והאדמומיות נעלמה לחלוטין!"
+                    </p>
+                </div>
+                
+                <div class="testimonial p-6 rounded-xl border">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/60x60/87ceeb/ffffff?text=מ" 
+                             alt="מיכל לוי" 
+                             class="w-12 h-12 rounded-full ml-4">
+                        <div>
+                            <div class="font-bold">מיכל לוי</div>
+                            <div class="text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "אחרי 3 שבועות של שימוש יומי - המראה שלי השתנה לחלוטין! חברות שואלות איך העור שלי נראה כל כך זוהר. הקערת הזו פשוט מדהימה!"
+                    </p>
+                </div>
+                
+                <div class="testimonial p-6 rounded-xl border">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/60x60/dda0dd/ffffff?text=ש" 
+                             alt="שרון אברהם" 
+                             class="w-12 h-12 rounded-full ml-4">
+                        <div>
+                            <div class="font-bold">שרון אברהם</div>
+                            <div class="text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "סבלתי מדלקות כרוניות בעור. לאחר שבוע עם הקערת הזו - הדלקות נעלמו! זה חיסך לי הרבה כסף על קרמים יקרים שלא עזרו."
+                    </p>
+                </div>
+                
+                <div class="testimonial p-6 rounded-xl border">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/60x60/98fb98/ffffff?text=ל" 
+                             alt="ליאת יוסף" 
+                             class="w-12 h-12 rounded-full ml-4">
+                        <div>
+                            <div class="font-bold">ליאת יוסף</div>
+                            <div class="text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "משתמשת כל בוקר לפני העבודה. זה נותן לי הרגשה של רעננות לכל היום! העור נראה מטופח ובריא. לא יכולה בלעדיה!"
+                    </p>
+                </div>
+                
+                <div class="testimonial p-6 rounded-xl border">
+                    <div class="flex items-center mb-4">
+                        <img src="https://via.placeholder.com/60x60/f0e68c/ffffff?text=ד" 
+                             alt="דנה מזרחי" 
+                             class="w-12 h-12 rounded-full ml-4">
+                        <div>
+                            <div class="font-bold">דנה מזרחי</div>
+                            <div class="text-yellow-400 text-sm">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "בת 45 ונראית 35! הסוד שלי - הקערת רחצה בקרח הזו. מדי בוקר 5 דקות וכל היום מרגישה מלכה. השקעה שמשתלמת!"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-6 text-gray-800">
+                    שאלות נפוצות
+                </h2>
+                <p class="text-xl text-gray-600">כל מה שחשוב לך לדעת על קערת רחצת הפנים בקרח</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="faq-item bg-white rounded-lg shadow-md mb-4">
+                    <div class="faq-header p-6 cursor-pointer flex justify-between items-center" onclick="toggleFAQ(1)">
+                        <h3 class="font-bold text-lg">איך בדיוק משתמשים בקערת רחצת הפנים בקרח?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300" id="icon-1"></i>
+                    </div>
+                    <div class="faq-content hidden p-6 pt-0" id="content-1">
+                        <p class="text-gray-700">
+                            פשוט מאוד! מלאי את הקערת במים קרים או קרח, טבלי את הפנים למשך 10-30 שניות, חזרי על הפעולה 2-3 פעמים. מומלץ להשתמש בבוקר או בערב אחרי ניקוי הפנים.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-white rounded-lg shadow-md mb-4">
+                    <div class="faq-header p-6 cursor-pointer flex justify-between items-center" onclick="toggleFAQ(2)">
+                        <h3 class="font-bold text-lg">האם זה בטוח לכל סוגי העור?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300" id="icon-2"></i>
+                    </div>
+                    <div class="faq-content hidden p-6 pt-0" id="content-2">
+                        <p class="text-gray-700">
+                            כן! קערת רחצת הפנים בקרח מתאימה לכל סוגי העור - רגיש, יבש, שמן או מעורב. זהו טיפול טבעי לחלוטין ללא כימיקלים או חומרים מזיקים.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-white rounded-lg shadow-md mb-4">
+                    <div class="faq-header p-6 cursor-pointer flex justify-between items-center" onclick="toggleFAQ(3)">
+                        <h3 class="font-bold text-lg">כמה זמן לוקח לראות תוצאות?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300" id="icon-3"></i>
+                    </div>
+                    <div class="faq-content hidden p-6 pt-0" id="content-3">
+                        <p class="text-gray-700">
+                            תוצאות מיידיות! כבר אחרי השימוש הראשון תרגישי רעננות וזוהר. לתוצאות מתמשכות מומלץ שימוש יומי למשך שבועיים - התוצאות יהיו מדהימות!
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-white rounded-lg shadow-md mb-4">
+                    <div class="faq-header p-6 cursor-pointer flex justify-between items-center" onclick="toggleFAQ(4)">
+                        <h3 class="font-bold text-lg">איך מנקים את הקערת?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300" id="icon-4"></i>
+                    </div>
+                    <div class="faq-content hidden p-6 pt-0" id="content-4">
+                        <p class="text-gray-700">
+                            קל מאוד לניקוי! פשוט שטפי במים חמים ונקי עדין. הקערת עמידה וניתנת לשטיפה. מומלץ לייבש לחלוטין לפני האחסון.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-white rounded-lg shadow-md mb-4">
+                    <div class="faq-header p-6 cursor-pointer flex justify-between items-center" onclick="toggleFAQ(5)">
+                        <h3 class="font-bold text-lg">מה כלול במשלוח?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300" id="icon-5"></i>
+                    </div>
+                    <div class="faq-content hidden p-6 pt-0" id="content-5">
+                        <p class="text-gray-700">
+                            אתם מקבלים: קערת רחצת פנים בקרח איכותית, מדריך שימוש מפורט בעברית, ואחריות מלאה ל-30 יום. משלוח חינם לכל הארץ!
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-white rounded-lg shadow-md mb-4">
+                    <div class="faq-header p-6 cursor-pointer flex justify-between items-center" onclick="toggleFAQ(6)">
+                        <h3 class="font-bold text-lg">מה המדיניות החזרות?</h3>
+                        <i class="fas fa-chevron-down transition-transform duration-300" id="icon-6"></i>
+                    </div>
+                    <div class="faq-content hidden p-6 pt-0" id="content-6">
+                        <p class="text-gray-700">
+                            אחריות מלאה ל-30 יום! אם לא תהיי מרוצה מהתוצאות תוכלי להחזיר את המוצר וליקבל החזר כספי מלא. אנחנו בטוחים שתתאהבי!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="order" class="py-16 price-gradient text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-6">
+                הזמני עכשיו ותתחילי את המהפכה בטיפוח שלך!
+            </h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                מבצע מוגבל זמן - רק ₪120 במקום ₪180! חסכי ₪60 והזמיני עכשיו עם משלוח חינם לכל הארץ
+            </p>
+            
+            <div class="bg-white text-gray-800 p-8 rounded-2xl max-w-2xl mx-auto mb-8">
+                <div class="text-center mb-6">
+                    <div class="text-4xl text-gray-400 line-through mb-2">₪180</div>
+                    <div class="text-6xl font-bold text-red-500 mb-2">₪120</div>
+                    <div class="text-green-600 text-xl font-semibold mb-4">
+                        <i class="fas fa-gift ml-1"></i>
+                        חסכת ₪60 + משלוח חינם!
+                    </div>
+                </div>
+                
+                <div class="space-y-3 text-right mb-6">
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-green-500 ml-2"></i>
+                        משלוח חינם לכל הארץ (ערך ₪25)
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-shield-alt text-green-500 ml-2"></i>
+                        אחריות מלאה 30 יום
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-truck text-green-500 ml-2"></i>
+                        זמן אספקה: 7-14 יום עבודה
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-credit-card text-green-500 ml-2"></i>
+                        תשלום מאובטח PayPal או אשראי
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-headset text-green-500 ml-2"></i>
+                        שירות לקוחות בעברית
+                    </div>
+                </div>
+                
+                <!-- PayPal Button Placeholder -->
+                <div class="mb-6">
+                    <button class="btn-primary text-white font-bold py-4 px-8 rounded-full text-xl w-full mb-4" onclick="orderNow()">
+                        <i class="fas fa-shopping-cart ml-2"></i>
+                        הזמני עכשיו - תשלום מאובטח
+                    </button>
+                    <!-- כאן יתווסף כפתור PayPal אמיתי -->
+                    <div class="bg-yellow-400 text-gray-800 p-4 rounded-lg">
+                        <i class="fab fa-paypal text-2xl mr-2"></i>
+                        <span class="font-semibold">תשלום מאובטח דרך PayPal</span>
+                    </div>
+                </div>
+                
+                <div class="text-sm text-gray-600">
+                    <i class="fas fa-lock ml-1 text-green-500"></i>
+                    תשלום מאובטח ומוגן SSL 256bit
+                </div>
+            </div>
+            
+            <!-- Countdown Timer -->
+            <div class="bg-white bg-opacity-20 p-6 rounded-lg inline-block">
+                <div class="text-lg font-semibold mb-2">המבצע נגמר בעוד:</div>
+                <div class="flex justify-center gap-4 text-2xl font-bold">
+                    <div class="text-center">
+                        <div id="hours-2">47</div>
+                        <div class="text-sm">שעות</div>
+                    </div>
+                    <div>:</div>
+                    <div class="text-center">
+                        <div id="minutes-2">23</div>
+                        <div class="text-sm">דקות</div>
+                    </div>
+                    <div>:</div>
+                    <div class="text-center">
+                        <div id="seconds-2">45</div>
+                        <div class="text-sm">שניות</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shipping & Support Section -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <i class="fas fa-shipping-fast text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">משלוח מהיר</h3>
+                    <p class="text-gray-600">משלוח חינם לכל הארץ תוך 7-14 יום עבודה</p>
+                </div>
+                <div>
+                    <i class="fas fa-undo-alt text-4xl text-green-500 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">החזרה קלה</h3>
+                    <p class="text-gray-600">לא מרוצה? החזר כספי מלא תוך 30 יום</p>
+                </div>
+                <div>
+                    <i class="fas fa-comments text-4xl text-purple-500 mb-4"></i>
+                    <h3 class="font-bold text-lg mb-2">תמיכה 24/7</h3>
+                    <p class="text-gray-600">שירות לקוחות מקצועי בעברית</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <div class="text-2xl font-bold mb-4">
+                    <i class="fas fa-snowflake ml-2"></i>
+                    Ice Beauty Israel
+                </div>
+                <p class="text-gray-400 mb-4">
+                    המובילים בישראל למוצרי טיפוח חדשניים ואיכותיים
+                </p>
+                <div class="flex justify-center space-x-6 mb-6">
+                    <a href="mailto:info@icebeauty.co.il" class="text-gray-400 hover:text-white">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </a>
+                    <a href="tel:+972501234567" class="text-gray-400 hover:text-white">
+                        <i class="fas fa-phone text-xl"></i>
+                    </a>
+                    <a href="https://wa.me/972501234567" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-whatsapp text-xl"></i>
+                    </a>
+                </div>
+                <div class="text-sm text-gray-400">
+                    <p>&copy; 2024 Ice Beauty Israel. כל הזכויות שמורות.</p>
+                    <p class="mt-2">
+                        <a href="#privacy" class="hover:text-white ml-4">מדיניות פרטיות</a>
+                        <a href="#terms" class="hover:text-white ml-4">תנאי שימוש</a>
+                        <a href="#shipping" class="hover:text-white">מדיניות משלוחים</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const targetTime = now + (48 * 60 * 60 * 1000); // 48 hours from now
+            
+            const timer = setInterval(function() {
+                const currentTime = new Date().getTime();
+                const distance = targetTime - currentTime;
+                
+                const hours = Math.floor(distance / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                // Update main timer
+                document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
+                document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
+                document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+                
+                // Update CTA timer
+                document.getElementById("hours-2").innerHTML = hours.toString().padStart(2, '0');
+                document.getElementById("minutes-2").innerHTML = minutes.toString().padStart(2, '0');
+                document.getElementById("seconds-2").innerHTML = seconds.toString().padStart(2, '0');
+                
+                if (distance < 0) {
+                    clearInterval(timer);
+                    document.getElementById("countdown").innerHTML = "המבצע הסתיים!";
+                }
+            }, 1000);
+        }
+        
+        // FAQ Toggle
+        function toggleFAQ(index) {
+            const content = document.getElementById(`content-${index}`);
+            const icon = document.getElementById(`icon-${index}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+        
+        // Smooth Scroll to Order Section
+        function scrollToOrder() {
+            document.getElementById('order').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+            
+            // Analytics tracking placeholder
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'click', {
+                    'event_category': 'CTA',
+                    'event_label': 'Scroll to Order'
+                });
+            }
+        }
+        
+        // Order Now Function
+        function orderNow() {
+            // כאן יתווסף הקוד לתהליך ההזמנה הפשרת
+            alert('מעבר לעמוד הזמנה מאובטח...\n\nכאן יתווסף קישור לדף התשלום או אינטגרציה עם PayPal');
+            
+            // Analytics tracking placeholder
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'purchase_intent', {
+                    'event_category': 'Ecommerce',
+                    'event_label': 'Ice Facial Bowl',
+                    'value': 120
+                });
+            }
+        }
+        
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCountdown();
+            
+            // Add loading animation to images
+            const images = document.querySelectorAll('img');
+            images.forEach(img => {
+                img.addEventListener('load', function() {
+                    this.style.opacity = '1';
+                    this.style.transform = 'scale(1)';
+                });
+                img.style.opacity = '0';
+                img.style.transform = 'scale(0.8)';
+                img.style.transition = 'all 0.3s ease';
+            });
+        });
+        
+        // Google Analytics Placeholder
+        // הוסיפי כאן את קוד Google Analytics שלך
+        /*
+        gtag('config', 'GA_MEASUREMENT_ID', {
+            page_title: 'Ice Facial Bowl Landing Page',
+            page_location: window.location.href
+        });
+        */
+    </script>
+    
+    <!-- Google Analytics Placeholder -->
+    <!-- הוסיפי כאן את קוד Google Analytics -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    -->
+
+</body>
+</html>
