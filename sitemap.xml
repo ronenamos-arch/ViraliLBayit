@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://yoursite.com/</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&amp;h=630&amp;fit=crop</image:loc>
+            <image:title>בית וואו - מוצרי בית ויראליים</image:title>
+        </image:image>
+    </url>
+
+    <!-- Product 1: Modular Sofa -->
+    <url>
+        <loc>https://yoursite.com/product1.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&amp;h=400&amp;fit=crop</image:loc>
+            <image:title>ספה מודולרית ירוקה צבאית</image:title>
+            <image:caption>ספה מודולרית ויראלית שמשנה את הסלון שלך - ₪515</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Product 2: Ice Beauty Facial Bowl -->
+    <url>
+        <loc>https://yoursite.com/product2ICE.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://via.placeholder.com/800x800/a8e6cf/ffffff?text=Ice+Beauty</image:loc>
+            <image:title>קערת רחצת פנים בקרח</image:title>
+            <image:caption>מהפכה בטיפוח הפנים - רק ₪120 במקום ₪180</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Product 3: Cabinet Organizer (Future) -->
+    <url>
+        <loc>https://yoursite.com/product3.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Product 4: Robot Vacuum (Future) -->
+    <url>
+        <loc>https://yoursite.com/product4.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Product 5: Gaming Chair (Future) -->
+    <url>
+        <loc>https://yoursite.com/product5.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Product 6: Smart Water Heater (Future) -->
+    <url>
+        <loc>https://yoursite.com/product6.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Product 7: Smart Curtain (Future) -->
+    <url>
+        <loc>https://yoursite.com/product7.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Product 8: Floor Cleaning Pad (Future) -->
+    <url>
+        <loc>https://yoursite.com/product8.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Additional Pages (to be created) -->
+    <url>
+        <loc>https://yoursite.com/about.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/contact.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/privacy.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://yoursite.com/terms.html</loc>
+        <lastmod>2025-10-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+</urlset>
